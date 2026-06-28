@@ -106,25 +106,25 @@
  *  Values: 0 = NONE, 1 = ERROR, 2 = WARNING, 3 = INFO, 4+ = DEBUG\n
  *  Uses approx. 32kB of flash memory.
  */
-// #define MYNEWT_VAL_NIMBLE_CPP_LOG_LEVEL 0
+#define MYNEWT_VAL_NIMBLE_CPP_LOG_LEVEL 4
 
 /** @brief Un-comment to enable the debug asserts in NimBLE CPP wrapper.*/
-// #define MYNEWT_VAL_NIMBLE_CPP_DEBUG_ASSERT_ENABLED 1
+#define MYNEWT_VAL_NIMBLE_CPP_DEBUG_ASSERT_ENABLED 1
 
 /** @brief Un-comment to see NimBLE host return codes as text debug log messages.
  *  Uses approx. 7kB of flash memory.
  */
-// #define MYNEWT_VAL_NIMBLE_CPP_ENABLE_RETURN_CODE_TEXT
+#define MYNEWT_VAL_NIMBLE_CPP_ENABLE_RETURN_CODE_TEXT
 
 /** @brief Un-comment to see GAP event codes as text in debug log messages.
  *  Uses approx. 1kB of flash memory.
  */
-// #define MYNEWT_VAL_NIMBLE_CPP_ENABLE_GAP_EVENT_CODE_TEXT
+#define MYNEWT_VAL_NIMBLE_CPP_ENABLE_GAP_EVENT_CODE_TEXT
 
 /** @brief Un-comment to see advertisement types as text while scanning in debug log messages.
  *  Uses approx. 250 bytes of flash memory.
  */
-// #define MYNEWT_VAL_NIMBLE_CPP_ENABLE_ADVERTISEMENT_TYPE_TEXT
+#define MYNEWT_VAL_NIMBLE_CPP_ENABLE_ADVERTISEMENT_TYPE_TEXT
 
 /****************************************************
  *         Extended advertising settings            *
